@@ -1,0 +1,463 @@
+
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "CPU / Processor"
+    },
+    {
+      "id": 2,
+      "name": "Motherboard"
+    },
+    {
+      "id": 3,
+      "name": "RAM"
+    },
+    {
+      "id": 4,
+      "name": "Power Supply Unit"
+    },
+    {
+      "id": 5,
+      "name": "Storage Device"
+    },
+    {
+      "id": 6,
+      "name": "Monitor"
+    }
+  ],
+  "products":[
+  {
+    "id":1,
+    "ProductName": "Intel Core i9-10900K",
+    "Category": 1,
+    "Status": "In Stock",
+    "Price": "$499.99",
+    "Description": "The Intel Core i9-10900K is a high-performance 10-core, 20-thread processor built for gaming and content creation. It features a base clockspeed of 3.7 GHz and can boost up to 5.3 GHz.",
+    "KeyFeatures": {
+      "Brand": "Intel",
+      "Model": "Core i9-10900K",
+      "Specification": "10 cores, 20 threads",
+      "ClockSpeed": "3.7 GHz base, 5.3 GHz boost",
+      "Socket": "LGA 1200"
+    },
+    "Rating": 4.8,
+    "Image":"https://www.startech.com.bd/image/cache/catalog/processor/amd/Athlon/athlon-500x500.jpg",
+    "Reviews": [
+      "Excellent processor for gaming!",
+      "Handles multitasking like a champ.",
+      "Great value for the performance."
+    ]
+  },
+  {
+    "id":2,
+    "ProductName": "AMD Ryzen 9 5900X",
+    "Category": 1,
+    "Status": "In Stock",
+    "Price": "$549.99",
+    "Description": "The AMD Ryzen 9 5900X is a powerful 12-core, 24-thread processor designed for enthusiasts. It boasts a base clockspeed of 3.7 GHz and can turbo up to 4.8 GHz.",
+    "KeyFeatures": {
+      "Brand": "AMD",
+      "Model": "Ryzen 9 5900X",
+      "Specification": "12 cores, 24 threads",
+      "ClockSpeed": "3.7 GHz base, 4.8 GHz boost",
+      "Socket": "AM4"
+    },
+    "Rating": 4.9,
+    "Image":"https://www.startech.com.bd/image/cache/catalog/processor/Intel/i3-10100/i3-10100-500x500.jpg",
+    "Reviews": [
+      "Unbeatable performance in this price range.",
+      "Ideal for content creators and gamers.",
+      "Easy overclocking options."
+    ]
+  },
+  {
+    "id":3,
+    "ProductName": "Intel Core i5-11600K",
+    "Category": 1,
+    "Status": "In Stock",
+    "Price": "$269.99",
+    "Description": "The Intel Core i5-11600K is a 6-core, 12-thread processor perfect for gaming. It has a base clockspeed of 3.9 GHz and can reach up to 4.9 GHz.",
+    "KeyFeatures": {
+      "Brand": "Intel",
+      "Model": "Core i5-11600K",
+      "Specification": "6 cores, 12 threads",
+      "ClockSpeed": "3.9 GHz base, 4.9 GHz boost",
+      "Socket": "LGA 1200"
+    },
+    "Rating": 4.6,
+    "Image":"https://www.startech.com.bd/image/cache/catalog/processor/AMD/ryzen-3-4100/amd-ryzen-3-4100-01-500x500.jpg",
+    "Reviews": [
+      "Solid mid-range CPU for gaming.",
+      "Overclocks well for extra performance.",
+      "Great value for budget-conscious gamers."
+    ]
+  },
+  {
+    "id":4,
+    "ProductName": "ASUS ROG Strix Z590-E Gaming",
+    "Category": 2,
+    "Status": "In Stock",
+    "Price": "$349.99",
+    "Description": "The ASUS ROG Strix Z590-E Gaming motherboard is designed for gamers and enthusiasts. It supports 10th and 11th gen Intel processors and features PCIe 4.0 support for high-speed gaming performance.",
+    "KeyFeatures": {
+      "Brand": "ASUS",
+      "Model": "ROG Strix Z590-E Gaming",
+      "Socket": "LGA 1200",
+      "FormFactor": "ATX",
+      "Memory Slots": "4 DDR4 DIMM slots",
+      "Ports": "USB-C, HDMI, Ethernet, Wi-Fi 6",
+      "RGBLighting": "Yes"
+    },
+    "Rating": 4.7,
+    "Image":"https://www.startech.com.bd/image/cache/catalog/motherboard/asrock/a520m-hvs/a520m-hvs-01-500x500.webp",
+    "Reviews": [
+      "Impressive build quality and features.",
+      "Easy BIOS setup for overclocking.",
+      "Great for gaming setups."
+    ]
+  },
+  {
+    "id":5,
+    "ProductName": "MSI MAG B550 TOMAHAWK",
+    "Category": 2,
+    "Status": "In Stock",
+    "Price": "$159.99",
+    "Description": "The MSI MAG B550 TOMAHAWK is a budget-friendly ATX motherboard that supports AMD Ryzen processors. It features PCIe 4.0 support and robust power delivery for overclocking.",
+    "KeyFeatures": {
+      "Brand": "MSI",
+      "Model": "MAG B550 TOMAHAWK",
+      "Socket": "AM4",
+      "FormFactor": "ATX",
+      "Memory Slots": "4 DDR4 DIMM slots",
+      "Ports": "USB-C, HDMI, Ethernet, Wi-Fi 5",
+      "RGBLighting": "No"
+    },
+    "Rating": 4.4,
+    "Image":"https://www.startech.com.bd/image/cache/catalog/motherboard/msi/b450m-a-pro-max-ii/b450m-a-pro-max-ii-01-500x500.webp",
+    "Reviews": [
+      "Solid performance for the price.",
+      "Good option for mid-range gaming rigs.",
+      "Stable overclocking capabilities."
+    ]
+  },
+  {
+    "id":6,
+    "ProductName": "GIGABYTE B450M DS3H",
+    "Category": 2,
+    "Status": "Out of Stock",
+    "Price": "$79.99",
+    "Description": "The GIGABYTE B450M DS3H is a micro ATX motherboard compatible with AMD Ryzen processors. It offers a cost-effective solution for budget builds with reliable performance.",
+    "KeyFeatures": {
+      "Brand": "GIGABYTE",
+      "Model": "B450M DS3H",
+      "Socket": "AM4",
+      "FormFactor": "Micro ATX",
+      "Memory Slots": "4 DDR4 DIMM slots",
+      "Ports": "USB, HDMI, Ethernet",
+      "RGBLighting": "No"
+    },
+    "Rating": 4.2,
+    "Image":"https://www.startech.com.bd/image/cache/catalog/component/motherboard/msi-ryzan/b450m-a-pro-max/b450m-a-pro-max-1-500x500.jpg",
+    "Reviews": [
+      "Decent motherboard for the price.",
+      "Compact size is great for small cases.",
+      "Limited but sufficient features."
+    ]
+  },
+  {
+    "id":7,
+    "ProductName": "Corsair Vengeance LPX 16GB DDR4",
+    "Category": 3,
+    "Status": "In Stock",
+    "Price": "$79.99",
+    "Description": "The Corsair Vengeance LPX 16GB DDR4 RAM kit is designed for high-performance gaming and content creation. It features a low-profile design and XMP 2.0 support for easy overclocking.",
+    "KeyFeatures": {
+      "Brand": "Corsair",
+      "Model": "Vengeance LPX",
+      "Capacity": "16GB (2 x 8GB)",
+      "Type": "DDR4",
+      "Speed": "3200MHz",
+      "CASLatency": "16",
+      "Voltage": "1.35V",
+      "FormFactor": "288-pin DIMM"
+    },
+    "Rating": 4.8,
+    "Image":"https://www.startech.com.bd/image/cache/catalog/ram/transcend/jetram-4gb/jetram-4gb-01-500x500.webp",
+    "Reviews": [
+      "Great RAM for gaming and multitasking.",
+      "Overclocks easily for better performance.",
+      "Reliable Corsair quality."
+    ]
+  },
+  {
+    "id":8,
+    "ProductName": "G.Skill Ripjaws V 32GB DDR4",
+    "Category": 3,
+    "Status": "In Stock",
+    "Price": "$139.99",
+    "Description": "The G.Skill Ripjaws V 32GB DDR4 RAM kit provides ample memory for demanding tasks. It offers a sleek design and XMP 2.0 support for easy performance tuning.",
+    "KeyFeatures": {
+      "Brand": "G.Skill",
+      "Model": "Ripjaws V",
+      "Capacity": "32GB (2 x 16GB)",
+      "Type": "DDR4",
+      "Speed": "3600MHz",
+      "CASLatency": "18",
+      "Voltage": "1.35V",
+      "FormFactor": "288-pin DIMM"
+    },
+    "Rating": 4.9,
+    "Image":"https://www.startech.com.bd/image/cache/catalog/RAM/TwinMOS/TwinMOS%204GB%20DDR4%202400-500x500.jpg",
+    "Reviews": [
+      "Perfect for video editing and heavy multitasking.",
+      "Runs at rated speed without issues.",
+      "Excellent value for the capacity and performance."
+    ]
+  },
+  {
+    "id":1,
+    "ProductName": "Crucial Ballistix 8GB DDR4",
+    "Category": 9,
+    "Status": "In Stock",
+    "Price": "$49.99",
+    "Description": "The Crucial Ballistix 8GB DDR4 RAM module is a cost-effective choice for budget builds. It offers reliable performance and compatibility.",
+    "KeyFeatures": {
+      "Brand": "Crucial",
+      "Model": "Ballistix",
+      "Capacity": "8GB (1 x 8GB)",
+      "Type": "DDR4",
+      "Speed": "2666MHz",
+      "CASLatency": "16",
+      "Voltage": "1.2V",
+      "FormFactor": "288-pin DIMM"
+    },
+    "Rating": 4.5,
+    "Image":"https://www.startech.com.bd/image/cache/catalog/ram/gskill/value/value-01-500x500.webp",
+    "Reviews": [
+      "Affordable RAM for basic computing needs.",
+      "Works well in budget systems.",
+      "Stable and reliable performance."
+    ]
+  },
+  {
+    "id":10,
+    "ProductName": "EVGA 750 BQ, 80+ Bronze 750W",
+    "Category": 4,
+    "Status": "In Stock",
+    "Price": "$79.99",
+    "Description": "The EVGA 750 BQ is a 750-watt power supply unit with 80+ Bronze certification. It offers reliable power delivery for mid-range gaming and workstation systems.",
+    "KeyFeatures": {
+      "Brand": "EVGA",
+      "Model": "750 BQ",
+      "Wattage": "750W",
+      "Efficiency": "80+ Bronze",
+      "Modularity": "Semi-Modular",
+      "Connectors": "1 x ATX, 1 x EPS, 4 x PCIe, 6 x SATA, 3 x Molex",
+      "Fan": "120mm Sleeve Bearing"
+    },
+    "Rating": 4.6,
+    "Image":"https://www.startech.com.bd/image/cache/catalog/power-supply/ovo/ops-p4-450w/ops-p4-450w-02-500x500.webp",
+    "Reviews": [
+      "Great PSU for the price, runs quietly.",
+      "Semi-modular design helps with cable management.",
+      "Reliable performance for gaming rigs."
+    ]
+  },
+  {
+    "id":11,
+    "ProductName": "Corsair RM850x, 80+ Gold 850W",
+    "Category": 4,
+    "Status": "In Stock",
+    "Price": "$129.99",
+    "Description": "The Corsair RM850x is an 850-watt power supply unit with 80+ Gold certification. It offers high efficiency and fully modular cables for clean builds.",
+    "KeyFeatures": {
+      "Brand": "Corsair",
+      "Model": "RM850x",
+      "Wattage": "850W",
+      "Efficiency": "80+ Gold",
+      "Modularity": "Fully Modular",
+      "Connectors": "1 x ATX, 2 x EPS, 6 x PCIe, 10 x SATA, 8 x Molex",
+      "Fan": "135mm Fluid Dynamic Bearing"
+    },
+    "Rating": 4.9,
+    "Image":"https://www.startech.com.bd/image/cache/catalog/power-supply/revenger/vp-350/vp-350-01-500x500.webp",
+    "Reviews": [
+      "Top-notch PSU with excellent efficiency.",
+      "Fully modular design is a dream for cable management.",
+      "Reliable and quiet performance."
+    ]
+  },
+  {
+    "id":12,
+    "ProductName": "Seasonic Focus GX-650, 80+ Gold 650W",
+    "Category": 4,
+    "Status": "In Stock",
+    "Price": "$99.99",
+    "Description": "The Seasonic Focus GX-650 is a 650-watt power supply unit with 80+ Gold certification. It provides stable power delivery and a compact size suitable for various builds.",
+    "KeyFeatures": {
+      "Brand": "Seasonic",
+      "Model": "Focus GX-650",
+      "Wattage": "650W",
+      "Efficiency": "80+ Gold",
+      "Modularity": "Semi-Modular",
+      "Connectors": "1 x ATX, 1 x EPS, 4 x PCIe, 9 x SATA, 3 x Molex",
+      "Fan": "120mm Fluid Dynamic Bearing"
+    },
+    "Rating": 4.7,
+    "Image":"https://www.startech.com.bd/image/cache/catalog/power-supply/power-train/pt-p200b/pt-p200b-01-500x500.webp",
+    "Reviews": [
+      "Compact and efficient PSU for small formfactor builds.",
+      "Semi-modular design is convenient.",
+      "Seasonic's reliability shines through."
+    ]
+  },
+  {
+    "id":13,
+    "ProductName": "Samsung 970 EVO 1TB NVMe SSD",
+    "Category": 5,
+    "Status": "In Stock",
+    "Price": "$149.99",
+    "Description": "The Samsung 970 EVO is a high-performance 1TB NVMe SSD, perfect for gaming and content creation. It offers blazing-fast read and writespeeds for rapid data access.",
+    "KeyFeatures": {
+      "Brand": "Samsung",
+      "Model": "970 EVO",
+      "Capacity": "1TB",
+      "Interface": "NVMe",
+      "FormFactor": "M.2 2280",
+      "ReadSpeed": "3,500 MB/s",
+      "WriteSpeed": "2,500 MB/s"
+    },
+    "Rating": 4.8,
+    "Image":"https://www.startech.com.bd/image/cache/catalog/ssd/netac/ls-ne-sa500/ls-ne-sa500-01-500x500.webp",
+    "Reviews": [
+      "Exceptional speed and reliability.",
+      "Perfect for OS and game installations.",
+      "Samsung SSDs are always top-notch."
+    ]
+  },
+  {
+    "id":14,
+    "ProductName": "Seagate BarraCuda 4TB 3.5-Inch HDD",
+    "Category": 5,
+    "Status": "In Stock",
+    "Price": "$99.99",
+    "Description": "The Seagate BarraCuda 4TB HDD provides ample storage space for your files and games. It's a 3.5-inch drive suitable for desktop PCs.",
+    "KeyFeatures": {
+      "Brand": "Seagate",
+      "Model": "BarraCuda",
+      "Capacity": "4TB",
+      "Interface": "SATA 6Gb/s",
+      "FormFactor": "3.5-inch",
+      "Rotational Speed": "5,900 RPM",
+      "Cache": "256MB"
+    },
+    "Rating": 4.6,
+    "Image":"https://www.startech.com.bd/image/cache/catalog/ssd/netac/n535n-128gb/n535n-128gb-500x500.jpg",
+    "Reviews": [
+      "Huge storage at an affordable price.",
+      "Ideal for mass storage needs.",
+      "Reliable and quiet operation."
+    ]
+  },
+  {
+    "id":15,
+    "ProductName": "Crucial MX500 500GB SATA SSD",
+    "Category": 5,
+    "Status": "In Stock",
+    "Price": "$69.99",
+    "Description": "The Crucial MX500 is a 500GB SATA SSD that offers a great balance of performance and value. It's suitable for both laptops and desktops.",
+    "KeyFeatures": {
+      "Brand": "Crucial",
+      "Model": "MX500",
+      "Capacity": "500GB",
+      "Interface": "SATA 6Gb/s",
+      "FormFactor": "2.5-inch",
+      "ReadSpeed": "560 MB/s",
+      "WriteSpeed": "510 MB/s"
+    },
+    "Rating": 4.7,
+    "Image":"https://www.startech.com.bd/image/cache/catalog/ssd/colorful/sl500/sl500-500x500.JPG",
+    "Reviews": [
+      "A reliable SSD for system upgrades.",
+      "Great value for the price.",
+      "Crucial SSDs never disappoint."
+    ]
+  },
+  {
+    "id":16,
+    "ProductName": "Dell Ultrasharp U2719D 27-Inch QHD IPS Monitor",
+    "Category": 6,
+    "Status": "In Stock",
+    "Price": "$349.99",
+    "Description": "The Dell Ultrasharp U2719D is a 27-inch QHD IPS monitor designed for professional and multimedia use. It offers accurate colors and a sleek design.",
+    "KeyFeatures": {
+      "Brand": "Dell",
+      "Model": "U2719D",
+      "ScreenSize": "27 inches",
+      "Resolution": "2560x1440 (QHD)",
+      "PanelType": "IPS",
+      "RefreshRate": "60Hz",
+      "ResponseTime": "5ms",
+      "Ports": "DisplayPort, HDMI, USB 3.0"
+    },
+    "Rating": 4.7,
+    "Image":"https://www.startech.com.bd/image/cache/catalog/monitor/enter/e-mo-a01/e-mo-a01-01-500x500.webp",
+    "Reviews": [
+      "Excellent color accuracy for photo editing.",
+      "Sharp and vibrant QHD display.",
+      "Dell's reliability shines through."
+    ]
+  },
+  {
+    "id":17,
+    "ProductName": "LG 34GN850-B 34-Inch Ultrawide QHD Nano IPS Gaming Monitor",
+    "Category": 6,
+    "Status": "In Stock",
+    "Price": "$899.99",
+    "Description": "The LG 34GN850-B is a 34-inch Ultrawide QHD gaming monitor with Nano IPS technology. It's designed for immersive gaming experiences with fast refreshrates.",
+    "KeyFeatures": {
+      "Brand": "LG",
+      "Model": "34GN850-B",
+      "ScreenSize": "34 inches",
+      "Resolution": "3440x1440 (Ultrawide QHD)",
+      "PanelType": "Nano IPS",
+      "RefreshRate": "144Hz",
+      "ResponseTime": "1ms",
+      "Ports": "DisplayPort, HDMI, USB 3.0"
+    },
+    "Rating": 4.9,
+    "Image":"https://www.startech.com.bd/image/cache/catalog/monitor/univision/led350-19-inch/led350-19-inch-monitor-500x500.webp",
+    "Reviews": [
+      "Incredible gaming experience with ultrawide resolution.",
+      "Fast refreshrate for competitive gaming.",
+      "LG's Nano IPS technology is a game-changer."
+    ]
+  },
+  {
+    "id":18,
+    "ProductName": "Acer R240HY 23.8-Inch Full HD IPS Monitor",
+    "Category": 6,
+    "Status": "In Stock",
+    "Price": "$129.99",
+    "Description": "The Acer R240HY is a 23.8-inch Full HD IPS monitor suitable for general computing tasks and entertainment. It offers a slim bezel design.",
+    "KeyFeatures": {
+      "Brand": "Acer",
+      "Model": "R240HY",
+      "ScreenSize": "23.8 inches",
+      "Resolution": "1920x1080 (Full HD)",
+      "PanelType": "IPS",
+      "RefreshRate": "60Hz",
+      "ResponseTime": "4ms",
+      "Ports": "VGA, HDMI, DVI"
+    },
+    "Rating": 4.6,
+    "Image":"https://www.startech.com.bd/image/cache/catalog/monitor/univision/led350-17-inch/led350-17-inch-01-500x500.webp",
+    "Reviews": [
+      "Affordable monitor with good picture quality.",
+      "Slim bezels give it a modern look.",
+      "Ideal for everyday computing."
+    ]
+  }
+]
+}
