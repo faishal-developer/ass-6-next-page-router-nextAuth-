@@ -88,5 +88,5 @@ export const getStaticProps: GetStaticProps<{
   const product = await res.json();
   return { props: { product } };
 };
-
+ 
 export default ProductDetails;
