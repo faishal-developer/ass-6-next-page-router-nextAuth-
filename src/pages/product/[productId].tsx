@@ -80,7 +80,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
 export const getStaticProps: GetStaticProps<{
   product: IProduct;
-}> = async (context) => {
+}> = async (context) => { 
   const { params } = context;
   const res = await fetch(
     `https://ass6-server.vercel.app/products/${params?.productId}`
