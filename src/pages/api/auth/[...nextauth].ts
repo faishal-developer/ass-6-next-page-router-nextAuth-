@@ -16,7 +16,7 @@ export const authOptions = {
     // ...add more providers here
   ],
   pages: {
-    signIn: "/login",
+    signIn: "https://ass6-next-page-router-nextauth.vercel.app/login",
   },
 };
 
